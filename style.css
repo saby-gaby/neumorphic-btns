@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    background-color: rgb(233, 233, 233);
+}
+
+nav {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+button {
+   padding: 1rem 2rem;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   text-transform: uppercase;
+   border: none;
+   border-radius: 0.5rem;
+   background-color: transparent;
+   box-shadow: 3px 3px 5px grey, 5px 5px 2px snow inset, -5px -5px 5px transparent inset;
+   transition: box-shadow 0.25s ease-in-out, font-size 0.5s ease-in, color 0.25s ease-in;
+}
+
+i {
+    font-size: 1.5rem;
+}
+
+button:hover {
+    box-shadow: 3px 3px lightgrey, 5px 5px snow inset;
+    text-shadow: 0 0 0.1rem limegreen;
+    color: green;
+}
+
+button:active {
+    outline: none;
+    box-shadow: 3px 3px transparent, 3px 3px 5px grey inset, -5px -5px 5px snow inset;
+    font-size: 1.2rem;
+    color: salmon;
+    font-weight: bold;
+}
