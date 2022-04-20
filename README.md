@@ -17,8 +17,9 @@
 ## Developed With
 
 - [x] _HTML5_
-- [x] _CSS#_
+- [x] _CSS3_
 - [x] _git_
+- [x] _color_
 
 ## Contact
 
